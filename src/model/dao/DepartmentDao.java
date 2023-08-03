@@ -6,8 +6,9 @@ import java.util.List;
 
 public interface DepartmentDao {
 
-    void insert(DepartmentDao obj);
-    void update(DepartmentDao obj);
+
+    void insert(Department obj);
+    void update(Department obj);
     void deleteById(Integer id);
     Department findById(Integer id);
     List<Department> findAll();
